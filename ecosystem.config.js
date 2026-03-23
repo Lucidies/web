@@ -1,10 +1,10 @@
         module.exports = {
         apps: [
             {
-            name: 'osu-dashboard',
+            name: 'biolink',
             script: 'npm',
             args: 'start',
-            cwd: '/var/www/osu',
+            cwd: '/var/www/biolink',
             instances: 'max',
             exec_mode: 'cluster',
             env: {
